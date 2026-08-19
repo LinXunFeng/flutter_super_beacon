@@ -1,6 +1,6 @@
 name: super_beacon
 description: Configurable iBeacon monitoring with native events, diagnostics, notifications, and raw manufacturer data.
-version: 0.0.1
+version: 0.0.1+1
 repository: https://github.com/LinXunFeng/flutter_super_beacon
 issue_tracker: https://github.com/LinXunFeng/flutter_super_beacon/issues
 topics:

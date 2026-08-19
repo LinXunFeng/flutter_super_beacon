@@ -1,6 +1,6 @@
 name: super_beacon_inspector
 description: Reusable Flutter diagnostics UI for beacon events, capabilities, manufacturer data, and locations.
-version: 0.0.1
+version: 0.0.1+1
 repository: https://github.com/LinXunFeng/flutter_super_beacon
 issue_tracker: https://github.com/LinXunFeng/flutter_super_beacon/issues
 topics:
@@ -16,7 +16,7 @@ environment:
 resolution: workspace
 
 dependencies:
-  super_beacon: ^0.0.1
+  super_beacon: ^0.0.1+1
   flutter:
     sdk: flutter
   flutter_localizations:

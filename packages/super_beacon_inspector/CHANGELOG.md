@@ -1,3 +1,7 @@
+## 0.0.1+1
+
+ - Update a dependency to the latest release.
+
 ## 0.0.1
 
 - Publish the diagnostics package as `super_beacon_inspector`.

@@ -1,3 +1,7 @@
+## 0.0.1+1
+
+ - **FIX**(super_beacon): align native package identifiers.
+
 ## 0.0.1
 
 - Publish the Flutter plugin as `super_beacon`.
