@@ -1,0 +1,25 @@
+name: flutter_super_beacon_workspace
+publish_to: none
+
+environment:
+  sdk: ^3.10.0
+
+workspace:
+  - packages/super_beacon
+  - packages/super_beacon/example
+  - packages/super_beacon_inspector
+
+dev_dependencies:
+  melos: ^7.5.0
+
+melos:
+  scripts:
+    analyze:
+      run: melos exec -- "flutter analyze"
+      description: Analyze every workspace package.
+    test:
+      run: melos exec --no-private --dir-exists=test -- "flutter test"
+      description: Run tests in packages that contain a test directory.
+    format:
+      run: dart format --set-exit-if-changed .
+      description: Verify Dart formatting.

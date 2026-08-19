@@ -1,0 +1,5 @@
+arb-dir: lib/l10n
+template-arb-file: super_beacon_inspector_en.arb
+output-localization-file: super_beacon_inspector_localizations.dart
+output-class: BeaconInspectorLocalizations
+nullable-getter: false

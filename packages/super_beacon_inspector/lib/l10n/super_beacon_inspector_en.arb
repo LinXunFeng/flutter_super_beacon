@@ -1,0 +1,69 @@
+{
+  "@@locale": "en",
+  "title": "Native event log",
+  "eventsCount": "{count, plural, =0{No events} =1{1 event} other{{count} events}}",
+  "@eventsCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "overviewCount": "{liveCount} live · {eventCount} events",
+  "@overviewCount": {
+    "placeholders": {
+      "liveCount": {"type": "int"},
+      "eventCount": {"type": "int"}
+    }
+  },
+  "liveDiscoveries": "Live discoveries",
+  "eventHistory": "Event history",
+  "refresh": "Refresh",
+  "copy": "Copy",
+  "clear": "Clear",
+  "noEvents": "No native events yet.",
+  "monitoring": "Monitoring",
+  "notMonitoring": "Not monitoring",
+  "monitoringStatus": "Monitoring status",
+  "bluetooth": "Bluetooth",
+  "locationPermission": "Location permission",
+  "error": "Error",
+  "configuration": "Configuration",
+  "notifications": "notifications",
+  "cooldown": "cooldown",
+  "iosBluetoothScan": "iOS Bluetooth scan",
+  "capabilities": "Capabilities",
+  "coreLocationRegionMonitoring": "Core Location region monitoring",
+  "bluetoothAdvertisementScanning": "Bluetooth advertisement scanning",
+  "backgroundAdvertisementScanning": "background advertisement scanning",
+  "continuousBackgroundScanningGuaranteed": "continuous background scanning guaranteed",
+  "relaunchAfterUserForceQuit": "relaunch after user force quit",
+  "manufacturerDataOnRegionEvents": "manufacturer data on region events",
+  "capabilitiesSupported": "{supported} of {total} supported",
+  "@capabilitiesSupported": {
+    "placeholders": {
+      "supported": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
+  "enabled": "Enabled",
+  "disabled": "Disabled",
+  "supported": "Supported",
+  "unsupported": "Unsupported",
+  "rawData": "Raw data",
+  "source": "Source",
+  "timestamp": "Timestamp",
+  "region": "Region",
+  "state": "State",
+  "reading": "Reading",
+  "manufacturerData": "Manufacturer data",
+  "location": "Location",
+  "message": "Message",
+  "system": "System",
+  "unknown": "Unknown",
+  "monitoringStarted": "Monitoring started",
+  "monitoringStopped": "Monitoring stopped",
+  "regionEntered": "Region entered",
+  "regionExited": "Region exited",
+  "regionStateChanged": "Region state changed",
+  "beaconRanged": "Beacon ranged",
+  "advertisementDiscovered": "Advertisement discovered"
+}

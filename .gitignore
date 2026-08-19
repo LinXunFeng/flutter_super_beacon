@@ -1,0 +1,16 @@
+.dart_tool/
+.idea/
+.metadata
+.packages
+build/
+coverage/
+pubspec.lock
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/Pods/
+**/Podfile.lock
+**/.symlinks/
+**/Flutter/ephemeral/
+**/xcuserdata/
+**/DerivedData/
+local.properties

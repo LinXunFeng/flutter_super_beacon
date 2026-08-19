@@ -1,0 +1,36 @@
+name: super_beacon
+description: Configurable iBeacon monitoring with native events, diagnostics, notifications, and raw manufacturer data.
+version: 0.0.1
+repository: https://github.com/LinXunFeng/flutter_super_beacon
+issue_tracker: https://github.com/LinXunFeng/flutter_super_beacon/issues
+topics:
+  - beacon
+  - bluetooth
+  - ibeacon
+  - location
+  - diagnostics
+
+environment:
+  sdk: ^3.10.9
+  flutter: '>=3.22.0'
+
+resolution: workspace
+
+dependencies:
+  flutter:
+    sdk: flutter
+  plugin_platform_interface: ^2.1.8
+
+dev_dependencies:
+  flutter_lints: ^6.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.lxf.beacon
+        pluginClass: BeaconPlugin
+      ios:
+        pluginClass: BeaconPlugin
