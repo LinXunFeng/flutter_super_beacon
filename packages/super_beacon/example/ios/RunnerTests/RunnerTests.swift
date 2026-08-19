@@ -1,7 +1,7 @@
 import Foundation
 import XCTest
 
-@testable import beacon
+@testable import super_beacon
 
 final class RunnerTests: XCTestCase {
   func testParsesAndMatchesConfiguredIBeaconRegion() throws {

@@ -2,8 +2,8 @@ package com.lxf.super_beacon_example
 
 import android.app.Application
 import android.util.Log
-import com.lxf.beacon.BeaconEventHandler
-import com.lxf.beacon.BeaconEventHandlers
+import com.lxf.super_beacon.BeaconEventHandler
+import com.lxf.super_beacon.BeaconEventHandlers
 
 class MainApplication : Application() {
     override fun onCreate() {

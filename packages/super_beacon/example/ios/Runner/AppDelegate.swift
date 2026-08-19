@@ -1,6 +1,6 @@
 import Flutter
 import UIKit
-import beacon
+import super_beacon
 
 @main
 @objc class AppDelegate: FlutterAppDelegate, BeaconEventHandler {

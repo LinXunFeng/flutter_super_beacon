@@ -1,4 +1,4 @@
-package com.lxf.beacon
+package com.lxf.super_beacon
 
 import android.content.Context
 import android.os.Handler

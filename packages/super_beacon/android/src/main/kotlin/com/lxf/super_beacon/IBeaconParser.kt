@@ -1,4 +1,4 @@
-package com.lxf.beacon
+package com.lxf.super_beacon
 
 import java.util.Locale
 

@@ -30,7 +30,7 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.lxf.beacon
+        package: com.lxf.super_beacon
         pluginClass: BeaconPlugin
       ios:
         pluginClass: BeaconPlugin

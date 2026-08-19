@@ -1,4 +1,4 @@
-package com.lxf.beacon
+package com.lxf.super_beacon
 
 import android.bluetooth.BluetoothAdapter
 import android.bluetooth.le.BluetoothLeScanner

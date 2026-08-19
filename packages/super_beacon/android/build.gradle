@@ -1,4 +1,4 @@
-group = "com.lxf.beacon"
+group = "com.lxf.super_beacon"
 version = "1.0-SNAPSHOT"
 
 buildscript {
@@ -25,7 +25,7 @@ apply plugin: "com.android.library"
 apply plugin: "kotlin-android"
 
 android {
-    namespace = "com.lxf.beacon"
+    namespace = "com.lxf.super_beacon"
 
     compileSdk = 36
 

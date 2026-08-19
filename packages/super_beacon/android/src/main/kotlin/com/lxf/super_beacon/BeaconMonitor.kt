@@ -1,4 +1,4 @@
-package com.lxf.beacon
+package com.lxf.super_beacon
 
 import android.Manifest
 import android.app.AlarmManager
@@ -15,8 +15,8 @@ import java.util.UUID
 
 /** Starts and stops Android PendingIntent-based iBeacon monitoring. */
 public object BeaconMonitor {
-    internal const val scanAction = "com.lxf.beacon.SCAN"
-    internal const val exitAction = "com.lxf.beacon.EXIT"
+    internal const val scanAction = "com.lxf.super_beacon.SCAN"
+    internal const val exitAction = "com.lxf.super_beacon.EXIT"
     private const val manufacturerId = 0x004C
 
     /**
